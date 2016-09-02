@@ -1,0 +1,47 @@
+                            Prince 2 File generator
+                            -----------------------
+
+DESCRIPTION:          This program can create a project file structure containing
+                      initial project documents needed when applying Prince2 for
+                      project management. Once the files have been created they 
+                      have to be maintained using Word and Excel.
+
+--------------------------------------------------------------------------------------
+
+HELP:
+Projects Directory:   The directory where your project files will be created. The
+                      Select Directory button can be used to select a different 
+                      path.
+Customer:             The customer name or code. These are loaded from a comma 
+                      separated file that is stored in the same directory as the
+                      program file. The name is used to create a directory in the
+                      Projects Directory if it does not yet exist
+Project ID:           The unique project ID used for this new project. A 
+                      directory will be created under the Customer Directory with 
+                      this Project-ID
+Select Directory:     Click this button to select a different Projects Directory
+Save Settings:        Click this button to save the current settings to the
+                      settings.ini file
+Create Project Files: Click this button to create the selected files
+Default Values:       Select the files you want to create. The default calues are 
+                      not saved to the setting file
+Status:               Shows status messages
+
+--------------------------------------------------------------------------------------
+
+USAGE:                - Select a customer in the Combobox
+                      - Enter a Project ID
+                      - Choose between Small and Big Project. For a small project
+                        only one excel file will be created containing all documents
+                        in one sheet. For a Big Project a project file structure will
+                        be created with all of the selected documents
+                      - The default value for Project Manager is taken from the
+                        settings file. Other data in the documents is updated manually
+                        after the file creation (using Word or Excel)
+                        
+--------------------------------------------------------------------------------------
+                        
+                      
+                                        
+                    
+           
